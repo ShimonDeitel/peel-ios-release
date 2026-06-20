@@ -1,0 +1,40 @@
+Turn any photo into a sticker, then style it like a pro — right on your iPhone, with nothing uploaded anywhere.
+
+A FULL STICKER EDITOR, FREE
+Pick any photo. One tap lifts the subject cleanly from the background using on-device machine learning. Then open the full editor — every tool is free:
+
+- 13+ photo adjustments: brightness, contrast, exposure, highlights, shadows, sharpness, saturation, vibrance, warmth, tint, hue, vignette, and grain
+- 17 one-tap filters: Vivid, Noir, Mono, Sepia, Comic, Line Art, Pop Art, Dramatic, Duotone, Glitch, and more
+- Outline styles with a custom outline color
+- Glow and drop-shadow controls
+- Backgrounds: solid, gradient, dots, stripes, checker, or a blurred photo
+- Text with 10 fonts
+- An interactive canvas — pinch to zoom, two-finger rotate, and drag to position your subject
+
+The entire editor is free and runs 100% on-device. No servers, no accounts beyond Apple sign-in, nothing uploaded.
+
+WORKS IN IMESSAGE
+Peel includes an iMessage sticker extension. Once you make a sticker, it appears in your keyboard drawer and you can send it in any conversation without leaving Messages. You can also share any sticker through the iOS share sheet.
+
+PRIVATE BY DESIGN
+Your photos never leave your iPhone. No servers receive your images, and Peel doesn't collect your photos or personal data. The subject-lift runs entirely on-device. Sign in with Apple only — no third-party logins, no tracking — and only your paid status is stored in Apple's CloudKit so your unlock follows you across devices.
+
+WHAT IS FREE
+- The complete editor — every adjustment, filter, outline, background, and font
+- One sticker per day (the counter resets at midnight)
+- Send via the iMessage keyboard and share through the iOS share sheet
+
+PEEL PRO — ONE-TIME UNLOCK, NO SUBSCRIPTION
+Peel Pro costs $0.99 once. No subscription, no renewal, no recurring charge. It unlocks exactly three things:
+
+- Unlimited stickers — no daily limit
+- Dual Stickers — drop a second photo's cut-out subject onto your sticker, then place, scale, and rotate each one independently
+- Auto-Edit — one tap that auto-enhances lighting, color, and outline using on-device heuristics (no AI, no cloud, no APIs)
+
+The editor stays free for everyone. One purchase, yours forever.
+
+REQUIREMENTS
+iPhone running iOS 17 or later.
+
+PRIVACY
+Peel doesn't collect your photos or personal data. Photos are processed entirely on your device and never leave it. Sign in with Apple is required; only your paid status is stored in Apple's CloudKit.

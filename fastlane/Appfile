@@ -1,0 +1,5 @@
+# Fill in after you sign in to your Apple Developer account.
+app_identifier("com.joshuadeitel.peel")            # the app's bundle ID
+# apple_id("you@example.com")                  # your Apple ID (or use an App Store Connect API key)
+# itc_team_id("XXXXXXXX")                       # App Store Connect team id
+# team_id("XXXXXXXXXX")                         # Developer Portal team id

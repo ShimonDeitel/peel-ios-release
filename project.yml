@@ -1,0 +1,97 @@
+name: Peel
+options:
+  bundleIdPrefix: com.joshuadeitel
+  deploymentTarget:
+    iOS: "18.0"
+  createIntermediateGroups: true
+  groupSortPosition: top
+
+settings:
+  base:
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "210"
+    SWIFT_VERSION: "5.0"
+    DEVELOPMENT_TEAM: "W7Q885Q59C"
+    CODE_SIGN_STYLE: Automatic
+    IPHONEOS_DEPLOYMENT_TARGET: "18.0"
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+    GENERATE_INFOPLIST_FILE: NO
+  configs:
+    Debug:
+      SWIFT_ACTIVE_COMPILATION_CONDITIONS: DEBUG
+
+schemes:
+  Peel:
+    build:
+      targets:
+        Peel: all
+        PeelStickers: all
+    run:
+      config: Debug
+      storeKitConfiguration: Peel.storekit
+    test:
+      config: Debug
+      targets:
+        - PeelTests
+
+targets:
+  Peel:
+    type: application
+    platform: iOS
+    sources:
+      - path: Peel
+      - path: Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.joshuadeitel.peel
+        INFOPLIST_FILE: Peel/Info.plist
+        CODE_SIGN_ENTITLEMENTS: Peel/Peel.entitlements
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        TARGETED_DEVICE_FAMILY: "1"
+        SUPPORTS_MACCATALYST: NO
+    dependencies:
+      - target: PeelStickers
+      - target: PeelKeyboard
+
+  PeelStickers:
+    type: app-extension.messages
+    platform: iOS
+    sources:
+      - path: PeelStickers
+      - path: Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.joshuadeitel.peel.stickers
+        INFOPLIST_FILE: PeelStickers/Info.plist
+        CODE_SIGN_ENTITLEMENTS: PeelStickers/PeelStickers.entitlements
+        ASSETCATALOG_COMPILER_APPICON_NAME: iMessage App Icon
+        TARGETED_DEVICE_FAMILY: "1"
+
+  PeelKeyboard:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: PeelKeyboard
+      - path: Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.joshuadeitel.peel.keyboard
+        INFOPLIST_FILE: PeelKeyboard/Info.plist
+        CODE_SIGN_ENTITLEMENTS: PeelKeyboard/PeelKeyboard.entitlements
+        TARGETED_DEVICE_FAMILY: "1"
+
+  PeelTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: PeelTests
+      - path: Peel.storekit
+        buildPhase: resources
+    dependencies:
+      - target: Peel
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.joshuadeitel.peel.tests
+        GENERATE_INFOPLIST_FILE: YES
+        CODE_SIGN_STYLE: Automatic

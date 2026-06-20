@@ -1,0 +1,51 @@
+default_platform(:ios)
+
+# Peel — App Store delivery. Requires you to be signed in to your Apple Developer account
+# (interactive Apple ID login, or an App Store Connect API key in ASC_KEY_* env vars).
+# The on-device subject-lift uses Vision and only runs on a real device, so verify on TestFlight.
+
+platform :ios do
+  desc "Register the bundle ID + create the App Store Connect record (run once)"
+  lane :bootstrap do
+    produce(
+      app_name: "Peel: Sticker Maker",
+      app_identifier: "com.joshuadeitel.peel",
+      language: "en-US",
+      app_version: "1.0",
+      enable_services: { app_group: "on" }
+    )
+    # Also create the iMessage extension app ID with the App Group enabled:
+    produce(app_identifier: "com.joshuadeitel.peel.stickers", skip_itc: true,
+            enable_services: { app_group: "on" })
+  end
+
+  desc "Build the signed release archive"
+  lane :build do
+    build_app(
+      project: "Peel.xcodeproj",
+      scheme: "Peel",
+      configuration: "Release",
+      export_method: "app-store",
+      output_name: "Peel.ipa",
+      xcargs: "-allowProvisioningUpdates"
+    )
+  end
+
+  desc "Upload a TestFlight build (verify IAP + on-device cutout here)"
+  lane :beta do
+    build
+    upload_to_testflight(skip_waiting_for_build_processing: true)
+  end
+
+  desc "Upload binary + metadata + screenshots and submit for review (manual release)"
+  lane :release do
+    build
+    upload_to_app_store(
+      submit_for_review: true,
+      automatic_release: false,           # you press Release after approval
+      force: true,                        # skip the HTML metadata preview prompt
+      precheck_include_in_app_purchases: true,
+      submission_information: { add_id_info_uses_idfa: false }
+    )
+  end
+end

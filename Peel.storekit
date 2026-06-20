@@ -1,0 +1,119 @@
+{
+  "identifier" : "PEEL-STOREKIT-CONFIG",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : true,
+      "internalID" : "PEEL0001",
+      "localizations" : [
+        {
+          "description" : "Unlimited stickers (no daily limit), dual stickers, and one-tap Auto-Edit. One-time purchase.",
+          "displayName" : "Peel Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "peel_pro_unlock",
+      "referenceName" : "Peel Pro Unlock (legacy)",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : true,
+      "internalID" : "PEEL0002",
+      "localizations" : [
+        {
+          "description" : "Make as many stickers as you want, forever — no daily limit — plus 2048px exports. One-time purchase.",
+          "displayName" : "Peel Unlimited",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "peel_unlimited",
+      "referenceName" : "Peel Unlimited",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "PEEL0003",
+      "localizations" : [
+        {
+          "description" : "50 Sticker Credits. Each credit makes one more sticker beyond your free daily 3. Never expire.",
+          "displayName" : "50 Sticker Credits",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "peel_credits_50",
+      "referenceName" : "Sticker Credits 50",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "7.99",
+      "familyShareable" : false,
+      "internalID" : "PEEL0004",
+      "localizations" : [
+        {
+          "description" : "200 Sticker Credits — the better value. Each credit makes one more sticker beyond your free daily 3. Never expire.",
+          "displayName" : "200 Sticker Credits",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "peel_credits_200",
+      "referenceName" : "Sticker Credits 200",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : true,
+      "internalID" : "PEEL0005",
+      "localizations" : [
+        {
+          "description" : "Neon Nights Style Pack — a bundle of glowing after-dark looks for your stickers. One-time purchase.",
+          "displayName" : "Neon Nights",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "peel_pack_neon",
+      "referenceName" : "Style Pack: Neon Nights",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : true,
+      "internalID" : "PEEL0006",
+      "localizations" : [
+        {
+          "description" : "Comic Shop Style Pack — halftone, ink and pop-art looks for your stickers. One-time purchase.",
+          "displayName" : "Comic Shop",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "peel_pack_comic",
+      "referenceName" : "Style Pack: Comic Shop",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : true,
+      "internalID" : "PEEL0007",
+      "localizations" : [
+        {
+          "description" : "Y2K Style Pack — chrome, candy and early-2000s looks for your stickers. One-time purchase.",
+          "displayName" : "Y2K",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "peel_pack_y2k",
+      "referenceName" : "Style Pack: Y2K",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false
+  },
+  "subscriptionGroups" : [],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

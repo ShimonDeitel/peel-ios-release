@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00BC893FB64D294B1D673279 /* StickerStudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6608EEABC6C04BA3DF711E68 /* StickerStudio.swift */; };
+		115972CC807D83C9DC195C11 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33531B40EF991DE57417EC /* PaywallView.swift */; };
+		1ED7DD4FE7E3C0B6257034B7 /* PeelKeyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5EF8B0097EA8CBD5EA2D1615 /* PeelKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		303A419A5151631C9002422C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9C0C35AE56FC6282E448A4 /* RootView.swift */; };
+		374211798E22A8D0B9554D1D /* AutoEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E05FDC2FBEF2D8A3CAFFC4 /* AutoEdit.swift */; };
+		48679E412A8514C3DA55B7DA /* StickerEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73D6BE9FC569458C3010AAF /* StickerEditorView.swift */; };
+		4CD2DF1FF0A328A13332C37E /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19353BC87FE2572A5FC69AC /* AppGroup.swift */; };
+		532307F49160B18D406F5C01 /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19353BC87FE2572A5FC69AC /* AppGroup.swift */; };
+		55DB988118B814D8E5C51CF3 /* StickerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90B954891287FAA502B2615 /* StickerStore.swift */; };
+		58D8DAFA5D8318266FEE4430 /* PeelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1914FDA4A39AB2F4C6157B95 /* PeelApp.swift */; };
+		5A09CC66EFFA20118BBCF3C8 /* RenderMatrixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894318A15ACC3949718CA35A /* RenderMatrixTests.swift */; };
+		625006266378DE90A941A038 /* SubjectLift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965F62CC35A87B2D971218B3 /* SubjectLift.swift */; };
+		628E58B44E98C4ECA135C49F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 971B004C2EE71AB5F63713B0 /* PrivacyInfo.xcprivacy */; };
+		6741FE3AFE639E5EB7028613 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 971B004C2EE71AB5F63713B0 /* PrivacyInfo.xcprivacy */; };
+		67AC74E057E4BA8C0D075502 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3948595E211D7FF1035B4C /* Assets.xcassets */; };
+		7A678EBB63C879AF38FC9614 /* SignInGateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA84408967C8405D8875A58 /* SignInGateView.swift */; };
+		7B62DD7FAB8FF2E85577A375 /* StickerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF21DFE645F3CC03CE664808 /* StickerDetailView.swift */; };
+		7D8318705BB6772D6B34FC5B /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19353BC87FE2572A5FC69AC /* AppGroup.swift */; };
+		80579BAA614E97036D8B4DC2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 971B004C2EE71AB5F63713B0 /* PrivacyInfo.xcprivacy */; };
+		833C95B4D242AD1F4B1F54D5 /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBF6D653966C92AC03C8F22 /* AccountManager.swift */; };
+		88570BBE17FFCEEF37F79440 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375DDBC59DC079DEC6DC57ED /* KeyboardViewController.swift */; };
+		96FFAFD8C7AE4BAF71F79863 /* Peel.storekit in Resources */ = {isa = PBXBuildFile; fileRef = B2377A5B06AED256F03CFC4A /* Peel.storekit */; };
+		982990FC0158292629DC8C2E /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B724C23E316CEF104455915 /* MessagesViewController.swift */; };
+		992923C3C54C3DFBB3B94CD1 /* CloudKitPro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA6A3ED534A3342B7CB5218 /* CloudKitPro.swift */; };
+		AE3CBA2E5BD0E53D425F66B4 /* StickerRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA71A21516179F7D97E9E20A /* StickerRenderer.swift */; };
+		C0C17555732B074778BE894E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92911CD1C2C9C207FA147529 /* SettingsView.swift */; };
+		C1480789208D0E34929C98CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E6BBBDAD3CE003B2474C38 /* Assets.xcassets */; };
+		C564E89F38784BBEC78BD455 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E471FF2621F357F02A586 /* Store.swift */; };
+		C7A04055812BFD9492B4E770 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D715FE1B98CA69380FF937 /* Theme.swift */; };
+		CD5635708B59E91134E21FAD /* PeelStickers.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1C17B2E944DCBF4DFB3CB9BA /* PeelStickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CFE1837BB79CEF5AC2C4D862 /* MakeStickerFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D01C8814F3AA6909260E9AE /* MakeStickerFlow.swift */; };
+		D05445F42A9131C4BA90F9B8 /* SelfTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6581275967855C0D598B7463 /* SelfTest.swift */; };
+		D90A844BB321BC1A6C5D230D /* PurchaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E874B7A892C1D3A261F1280 /* PurchaseTests.swift */; };
+		DCC517666F043EA59DCC578C /* DailyQuota.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C971F0E020788E9BB8B03A4 /* DailyQuota.swift */; };
+		ED19623E4B77717ACE8FB0C0 /* OutlineStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB68D305CD39413D49E1BF1C /* OutlineStyle.swift */; };
+		F9582137820980DDC82C7B14 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361B2052FCBFBAE0A8A09FD7 /* Haptics.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45B14E31DF13CAED967845D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED08070AD6C36680EA5CFBF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEC84CE16FE5873651BBA3A8;
+			remoteInfo = Peel;
+		};
+		499E83AE60E8F1D3F273A0BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED08070AD6C36680EA5CFBF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5BC732DF4F1B8D763384259;
+			remoteInfo = PeelKeyboard;
+		};
+		E4A0EE0B467D1371BCCDF8F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED08070AD6C36680EA5CFBF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FE71B2F6D73D3A1FA35278C;
+			remoteInfo = PeelStickers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DBF86C1C9D6D59D5F1F9E29A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CD5635708B59E91134E21FAD /* PeelStickers.appex in Embed Foundation Extensions */,
+				1ED7DD4FE7E3C0B6257034B7 /* PeelKeyboard.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1622BA468A5A064711D407CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		180BBBD843985DA1F0B6E0D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1914FDA4A39AB2F4C6157B95 /* PeelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeelApp.swift; sourceTree = "<group>"; };
+		1C17B2E944DCBF4DFB3CB9BA /* PeelStickers.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = PeelStickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E6BBBDAD3CE003B2474C38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		361B2052FCBFBAE0A8A09FD7 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		375DDBC59DC079DEC6DC57ED /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		40E05FDC2FBEF2D8A3CAFFC4 /* AutoEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoEdit.swift; sourceTree = "<group>"; };
+		46C04FD5440B8DD215700CC4 /* PeelStickers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PeelStickers.entitlements; sourceTree = "<group>"; };
+		4B724C23E316CEF104455915 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		4C971F0E020788E9BB8B03A4 /* DailyQuota.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyQuota.swift; sourceTree = "<group>"; };
+		4D1E471FF2621F357F02A586 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		53DF498B52FE112E72DC827B /* PeelKeyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PeelKeyboard.entitlements; sourceTree = "<group>"; };
+		5EF8B0097EA8CBD5EA2D1615 /* PeelKeyboard.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = PeelKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6581275967855C0D598B7463 /* SelfTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfTest.swift; sourceTree = "<group>"; };
+		6608EEABC6C04BA3DF711E68 /* StickerStudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerStudio.swift; sourceTree = "<group>"; };
+		6D01C8814F3AA6909260E9AE /* MakeStickerFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeStickerFlow.swift; sourceTree = "<group>"; };
+		6E874B7A892C1D3A261F1280 /* PurchaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseTests.swift; sourceTree = "<group>"; };
+		894318A15ACC3949718CA35A /* RenderMatrixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderMatrixTests.swift; sourceTree = "<group>"; };
+		92911CD1C2C9C207FA147529 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		965F62CC35A87B2D971218B3 /* SubjectLift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectLift.swift; sourceTree = "<group>"; };
+		971B004C2EE71AB5F63713B0 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		9B9C0C35AE56FC6282E448A4 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		9BA6A3ED534A3342B7CB5218 /* CloudKitPro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitPro.swift; sourceTree = "<group>"; };
+		A73D6BE9FC569458C3010AAF /* StickerEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerEditorView.swift; sourceTree = "<group>"; };
+		A90B954891287FAA502B2615 /* StickerStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerStore.swift; sourceTree = "<group>"; };
+		AA3948595E211D7FF1035B4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACA8B8C4D168745763E9D358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AEF7B00B76B306E48D7DB3E6 /* Peel.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Peel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2377A5B06AED256F03CFC4A /* Peel.storekit */ = {isa = PBXFileReference; path = Peel.storekit; sourceTree = "<group>"; };
+		B9D715FE1B98CA69380FF937 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		BA7A975612A2909337CBC96D /* PeelTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = PeelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19353BC87FE2572A5FC69AC /* AppGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroup.swift; sourceTree = "<group>"; };
+		CAA84408967C8405D8875A58 /* SignInGateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInGateView.swift; sourceTree = "<group>"; };
+		CB68D305CD39413D49E1BF1C /* OutlineStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineStyle.swift; sourceTree = "<group>"; };
+		CF21DFE645F3CC03CE664808 /* StickerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerDetailView.swift; sourceTree = "<group>"; };
+		CFBF6D653966C92AC03C8F22 /* AccountManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManager.swift; sourceTree = "<group>"; };
+		DA71A21516179F7D97E9E20A /* StickerRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerRenderer.swift; sourceTree = "<group>"; };
+		DD33531B40EF991DE57417EC /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		ED3EF6485635036C1B142F74 /* Peel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Peel.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		05CDE5BFD9469B01704146F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEF7B00B76B306E48D7DB3E6 /* Peel.app */,
+				5EF8B0097EA8CBD5EA2D1615 /* PeelKeyboard.appex */,
+				1C17B2E944DCBF4DFB3CB9BA /* PeelStickers.appex */,
+				BA7A975612A2909337CBC96D /* PeelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26F250426816D08962CDD155 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1914FDA4A39AB2F4C6157B95 /* PeelApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		50FE5FC9E0A64805FB7CEC0B /* PeelTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E874B7A892C1D3A261F1280 /* PurchaseTests.swift */,
+				894318A15ACC3949718CA35A /* RenderMatrixTests.swift */,
+			);
+			path = PeelTests;
+			sourceTree = "<group>";
+		};
+		61AC101B4779B4896BE138B9 /* PeelKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				ACA8B8C4D168745763E9D358 /* Info.plist */,
+				375DDBC59DC079DEC6DC57ED /* KeyboardViewController.swift */,
+				53DF498B52FE112E72DC827B /* PeelKeyboard.entitlements */,
+			);
+			path = PeelKeyboard;
+			sourceTree = "<group>";
+		};
+		7A996A04AFCB9CFFE21C8EBF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D01C8814F3AA6909260E9AE /* MakeStickerFlow.swift */,
+				DD33531B40EF991DE57417EC /* PaywallView.swift */,
+				9B9C0C35AE56FC6282E448A4 /* RootView.swift */,
+				92911CD1C2C9C207FA147529 /* SettingsView.swift */,
+				CAA84408967C8405D8875A58 /* SignInGateView.swift */,
+				CF21DFE645F3CC03CE664808 /* StickerDetailView.swift */,
+				A73D6BE9FC569458C3010AAF /* StickerEditorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A69C69DE08D4037E2526750C = {
+			isa = PBXGroup;
+			children = (
+				AE47BA9CA2B3BDC8F5C9C9B5 /* Peel */,
+				61AC101B4779B4896BE138B9 /* PeelKeyboard */,
+				CFD5CF90BDB9EFCD4700F9CB /* PeelStickers */,
+				50FE5FC9E0A64805FB7CEC0B /* PeelTests */,
+				CD812A3C39C4D1C2706EF486 /* Shared */,
+				B2377A5B06AED256F03CFC4A /* Peel.storekit */,
+				05CDE5BFD9469B01704146F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE47BA9CA2B3BDC8F5C9C9B5 /* Peel */ = {
+			isa = PBXGroup;
+			children = (
+				26F250426816D08962CDD155 /* App */,
+				AEC7CCF390A77E0D722E7A24 /* Core */,
+				7A996A04AFCB9CFFE21C8EBF /* Views */,
+				34E6BBBDAD3CE003B2474C38 /* Assets.xcassets */,
+				180BBBD843985DA1F0B6E0D3 /* Info.plist */,
+				ED3EF6485635036C1B142F74 /* Peel.entitlements */,
+			);
+			path = Peel;
+			sourceTree = "<group>";
+		};
+		AEC7CCF390A77E0D722E7A24 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CFBF6D653966C92AC03C8F22 /* AccountManager.swift */,
+				40E05FDC2FBEF2D8A3CAFFC4 /* AutoEdit.swift */,
+				9BA6A3ED534A3342B7CB5218 /* CloudKitPro.swift */,
+				4C971F0E020788E9BB8B03A4 /* DailyQuota.swift */,
+				361B2052FCBFBAE0A8A09FD7 /* Haptics.swift */,
+				CB68D305CD39413D49E1BF1C /* OutlineStyle.swift */,
+				6581275967855C0D598B7463 /* SelfTest.swift */,
+				DA71A21516179F7D97E9E20A /* StickerRenderer.swift */,
+				A90B954891287FAA502B2615 /* StickerStore.swift */,
+				6608EEABC6C04BA3DF711E68 /* StickerStudio.swift */,
+				4D1E471FF2621F357F02A586 /* Store.swift */,
+				965F62CC35A87B2D971218B3 /* SubjectLift.swift */,
+				B9D715FE1B98CA69380FF937 /* Theme.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CD812A3C39C4D1C2706EF486 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C19353BC87FE2572A5FC69AC /* AppGroup.swift */,
+				971B004C2EE71AB5F63713B0 /* PrivacyInfo.xcprivacy */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		CFD5CF90BDB9EFCD4700F9CB /* PeelStickers */ = {
+			isa = PBXGroup;
+			children = (
+				AA3948595E211D7FF1035B4C /* Assets.xcassets */,
+				1622BA468A5A064711D407CD /* Info.plist */,
+				4B724C23E316CEF104455915 /* MessagesViewController.swift */,
+				46C04FD5440B8DD215700CC4 /* PeelStickers.entitlements */,
+			);
+			path = PeelStickers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FE71B2F6D73D3A1FA35278C /* PeelStickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5800F4AE43C0BB9990D25C4 /* Build configuration list for PBXNativeTarget "PeelStickers" */;
+			buildPhases = (
+				73B46606F341039210B11751 /* Sources */,
+				7DD9C1594B595DC3FDCD2068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeelStickers;
+			packageProductDependencies = (
+			);
+			productName = PeelStickers;
+			productReference = 1C17B2E944DCBF4DFB3CB9BA /* PeelStickers.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+		9C2EAB725D5486A251AF4AF2 /* PeelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40FA5680B8FE2EC140F58801 /* Build configuration list for PBXNativeTarget "PeelTests" */;
+			buildPhases = (
+				C98B310A2496CAED1EA0BAD0 /* Sources */,
+				233094010ECEC20C760FD520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B63F554532EA0EE7E36A97A /* PBXTargetDependency */,
+			);
+			name = PeelTests;
+			packageProductDependencies = (
+			);
+			productName = PeelTests;
+			productReference = BA7A975612A2909337CBC96D /* PeelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5BC732DF4F1B8D763384259 /* PeelKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E836428291DCB7FE7F0E75E0 /* Build configuration list for PBXNativeTarget "PeelKeyboard" */;
+			buildPhases = (
+				22192BBB285B2950090C8462 /* Sources */,
+				8F033DB98DB68033A9E4BDE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeelKeyboard;
+			packageProductDependencies = (
+			);
+			productName = PeelKeyboard;
+			productReference = 5EF8B0097EA8CBD5EA2D1615 /* PeelKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		BEC84CE16FE5873651BBA3A8 /* Peel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01834D04F08AFFC078FA6156 /* Build configuration list for PBXNativeTarget "Peel" */;
+			buildPhases = (
+				6932561C542ED45B23F8218F /* Sources */,
+				58A9BC0894F5A7238BA85401 /* Resources */,
+				DBF86C1C9D6D59D5F1F9E29A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CF6E14408206B86DB7FBAC3 /* PBXTargetDependency */,
+				0EEBD1352F1CB425D0A7112E /* PBXTargetDependency */,
+			);
+			name = Peel;
+			packageProductDependencies = (
+			);
+			productName = Peel;
+			productReference = AEF7B00B76B306E48D7DB3E6 /* Peel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED08070AD6C36680EA5CFBF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4FE71B2F6D73D3A1FA35278C = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+					};
+					9C2EAB725D5486A251AF4AF2 = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+					};
+					A5BC732DF4F1B8D763384259 = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+					};
+					BEC84CE16FE5873651BBA3A8 = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 078262014B44372A34E27C8E /* Build configuration list for PBXProject "Peel" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A69C69DE08D4037E2526750C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 05CDE5BFD9469B01704146F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEC84CE16FE5873651BBA3A8 /* Peel */,
+				A5BC732DF4F1B8D763384259 /* PeelKeyboard */,
+				4FE71B2F6D73D3A1FA35278C /* PeelStickers */,
+				9C2EAB725D5486A251AF4AF2 /* PeelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		233094010ECEC20C760FD520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FFAFD8C7AE4BAF71F79863 /* Peel.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58A9BC0894F5A7238BA85401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1480789208D0E34929C98CE /* Assets.xcassets in Resources */,
+				6741FE3AFE639E5EB7028613 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DD9C1594B595DC3FDCD2068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67AC74E057E4BA8C0D075502 /* Assets.xcassets in Resources */,
+				628E58B44E98C4ECA135C49F /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F033DB98DB68033A9E4BDE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80579BAA614E97036D8B4DC2 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22192BBB285B2950090C8462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD2DF1FF0A328A13332C37E /* AppGroup.swift in Sources */,
+				88570BBE17FFCEEF37F79440 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6932561C542ED45B23F8218F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833C95B4D242AD1F4B1F54D5 /* AccountManager.swift in Sources */,
+				7D8318705BB6772D6B34FC5B /* AppGroup.swift in Sources */,
+				374211798E22A8D0B9554D1D /* AutoEdit.swift in Sources */,
+				992923C3C54C3DFBB3B94CD1 /* CloudKitPro.swift in Sources */,
+				DCC517666F043EA59DCC578C /* DailyQuota.swift in Sources */,
+				F9582137820980DDC82C7B14 /* Haptics.swift in Sources */,
+				CFE1837BB79CEF5AC2C4D862 /* MakeStickerFlow.swift in Sources */,
+				ED19623E4B77717ACE8FB0C0 /* OutlineStyle.swift in Sources */,
+				115972CC807D83C9DC195C11 /* PaywallView.swift in Sources */,
+				58D8DAFA5D8318266FEE4430 /* PeelApp.swift in Sources */,
+				303A419A5151631C9002422C /* RootView.swift in Sources */,
+				D05445F42A9131C4BA90F9B8 /* SelfTest.swift in Sources */,
+				C0C17555732B074778BE894E /* SettingsView.swift in Sources */,
+				7A678EBB63C879AF38FC9614 /* SignInGateView.swift in Sources */,
+				7B62DD7FAB8FF2E85577A375 /* StickerDetailView.swift in Sources */,
+				48679E412A8514C3DA55B7DA /* StickerEditorView.swift in Sources */,
+				AE3CBA2E5BD0E53D425F66B4 /* StickerRenderer.swift in Sources */,
+				55DB988118B814D8E5C51CF3 /* StickerStore.swift in Sources */,
+				00BC893FB64D294B1D673279 /* StickerStudio.swift in Sources */,
+				C564E89F38784BBEC78BD455 /* Store.swift in Sources */,
+				625006266378DE90A941A038 /* SubjectLift.swift in Sources */,
+				C7A04055812BFD9492B4E770 /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73B46606F341039210B11751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				532307F49160B18D406F5C01 /* AppGroup.swift in Sources */,
+				982990FC0158292629DC8C2E /* MessagesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98B310A2496CAED1EA0BAD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90A844BB321BC1A6C5D230D /* PurchaseTests.swift in Sources */,
+				5A09CC66EFFA20118BBCF3C8 /* RenderMatrixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EEBD1352F1CB425D0A7112E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5BC732DF4F1B8D763384259 /* PeelKeyboard */;
+			targetProxy = 499E83AE60E8F1D3F273A0BC /* PBXContainerItemProxy */;
+		};
+		1B63F554532EA0EE7E36A97A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEC84CE16FE5873651BBA3A8 /* Peel */;
+			targetProxy = 45B14E31DF13CAED967845D0 /* PBXContainerItemProxy */;
+		};
+		2CF6E14408206B86DB7FBAC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FE71B2F6D73D3A1FA35278C /* PeelStickers */;
+			targetProxy = E4A0EE0B467D1371BCCDF8F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0478FC3A2E0516CB48B33A20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Peel/Peel.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Peel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshuadeitel.peel;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		255A51E1184E25642ACB2E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_ENTITLEMENTS = PeelStickers/PeelStickers.entitlements;
+				INFOPLIST_FILE = PeelStickers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshuadeitel.peel.stickers;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		28B0B486DC0BB2F38B86D7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 4;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = W7Q885Q59C;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		69DBC1166F2CB6F6E21F8AAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshuadeitel.peel.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Peel.app/Peel";
+			};
+			name = Release;
+		};
+		74559B45D6467924FE0958C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 4;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = W7Q885Q59C;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B1332434575382BF360790B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PeelKeyboard/PeelKeyboard.entitlements;
+				INFOPLIST_FILE = PeelKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshuadeitel.peel.keyboard;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C52D67EE4C4119303F1CC265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_ENTITLEMENTS = PeelStickers/PeelStickers.entitlements;
+				INFOPLIST_FILE = PeelStickers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshuadeitel.peel.stickers;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E9030B4A1D6C890CA28587F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshuadeitel.peel.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Peel.app/Peel";
+			};
+			name = Debug;
+		};
+		F4D9F8BA278AA4E243C09ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Peel/Peel.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Peel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshuadeitel.peel;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FAB7A2DE7E412187BC89FF4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PeelKeyboard/PeelKeyboard.entitlements;
+				INFOPLIST_FILE = PeelKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshuadeitel.peel.keyboard;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01834D04F08AFFC078FA6156 /* Build configuration list for PBXNativeTarget "Peel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D9F8BA278AA4E243C09ABB /* Debug */,
+				0478FC3A2E0516CB48B33A20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		078262014B44372A34E27C8E /* Build configuration list for PBXProject "Peel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28B0B486DC0BB2F38B86D7AF /* Debug */,
+				74559B45D6467924FE0958C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		40FA5680B8FE2EC140F58801 /* Build configuration list for PBXNativeTarget "PeelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9030B4A1D6C890CA28587F5 /* Debug */,
+				69DBC1166F2CB6F6E21F8AAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E5800F4AE43C0BB9990D25C4 /* Build configuration list for PBXNativeTarget "PeelStickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255A51E1184E25642ACB2E80 /* Debug */,
+				C52D67EE4C4119303F1CC265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E836428291DCB7FE7F0E75E0 /* Build configuration list for PBXNativeTarget "PeelKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB7A2DE7E412187BC89FF4E /* Debug */,
+				B1332434575382BF360790B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED08070AD6C36680EA5CFBF2 /* Project object */;
+}
