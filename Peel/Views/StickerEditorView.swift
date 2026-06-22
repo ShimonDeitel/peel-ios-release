@@ -59,9 +59,10 @@ struct StickerEditorView: View {
     @State private var liveLayerID: UUID?
 
     private let previewCanvas: CGFloat = 660
-    /// Full-resolution export on EVERY tier (no watermark, no Pro gate) — exports are part of the free
-    /// studio. Only how many NEW stickers you create is metered (daily free 3 + credits), never the editor.
-    private let exportCanvas: CGFloat = 2048
+    /// Export resolution is the Pro benefit advertised on the paywall: Pro unlocks full 2048px export,
+    /// while the free tier exports at a still-generous 1024px. The editor itself and every tool stay free;
+    /// only the export *resolution* (and how many new stickers you create) scales with Pro.
+    private var exportCanvas: CGFloat { store.isPro ? 2048 : 1024 }
 
     /// The contextual inspector panels. Far fewer than the old 7 chips — each panel is content-sized and
     /// only shown when summoned, so the canvas owns the screen.
